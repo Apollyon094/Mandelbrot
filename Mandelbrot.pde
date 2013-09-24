@@ -76,3 +76,10 @@ void drawMandelbrot(float centerX, float centerY) {
   }
 }
 
+void keyPressed() {
+  // Press enter to save a screenshot.
+  if(keyCode == 10) {
+    saveFrame();
+  }
+}
+
